@@ -13,6 +13,10 @@ from dash_mantine_components import Container
 from dash_mantine_components import Group
 from dash_mantine_components import Stack
 from dash_mantine_components import Text
+from dash_mantine_components import Accordion
+from dash_mantine_components import AccordionItem
+from dash_mantine_components import AccordionControl
+from dash_mantine_components import AccordionPanel
 
 
 header = Header(
@@ -80,20 +84,31 @@ navbar = Navbar(
             spacing="xl",
             children=[
                 Avatar(radius="xl", size="lg"),
-                Text(
-                    size="xs",
-                    children=[
-                        Stack(
-                            spacing="xs",
-                            children=[
-                                "John Smith",
-                                Anchor("Log Out", href=""),
-                            ]
-                        )
-                    ]
-                )
+                Text("John Smith")
             ]
-        )
+        ),
+        Accordion(
+            children=[
+                AccordionItem(
+                    children=[
+                        AccordionControl("Getting Started"),
+                        AccordionPanel(),
+                    ]
+                ),
+                AccordionItem(
+                    children=[
+                        AccordionControl("Evaluate"),
+                        AccordionPanel(),
+                    ]
+                ),
+                AccordionItem(
+                    children=[
+                        AccordionControl("Manage"),
+                        AccordionPanel(),
+                    ]
+                ),
+            ]
+        ),
     ]
 )
 

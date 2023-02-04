@@ -10,7 +10,7 @@ from dash_mantine_components import Title
 layout = Container(
 	children=[
 		Title("Getting Started", order=1),
-		
+		Text("", size="xl"),
 	]
 )
 
