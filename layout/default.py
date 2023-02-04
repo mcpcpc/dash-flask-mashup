@@ -3,6 +3,7 @@ from dash import clientside_callback
 from dash import dcc
 
 from dash_mantine_components import Avatar
+from dash_mantine_components import Anchor
 from dash_mantine_components import Navbar
 from dash_mantine_components import Header
 from dash_mantine_components import MantineProvider
@@ -68,7 +69,8 @@ navbar = Navbar(
                 Avatar(radius="xl"),
                 Stack(
                     children=[
-                        "John Smith"
+                        "John Smith",
+                        Anchor("Log Out", href="/logout")
                     ]
                 ),
             ]
