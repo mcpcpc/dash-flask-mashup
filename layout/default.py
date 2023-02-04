@@ -71,8 +71,13 @@ navbar = Navbar(
             p="xl",
             children=[
                 Avatar(radius="xl"),
-                "John Smith",
-                Anchor("Log Out", href=""),
+                Stack(
+                    spacing="xs",
+                    children=[
+                        "John Smith",
+                        Anchor("Log Out", href=""),
+                    ] 
+                )
             ]
         )
     ]
