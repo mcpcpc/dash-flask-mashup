@@ -17,6 +17,8 @@ from dash_mantine_components import Accordion
 from dash_mantine_components import AccordionItem
 from dash_mantine_components import AccordionControl
 from dash_mantine_components import AccordionPanel
+from dash_mantine_components import List
+from dash_mantine_components import ListItem
 
 
 header = Header(
@@ -108,7 +110,14 @@ navbar = Navbar(
                     children=[
                         AccordionControl("Manage"),
                         AccordionPanel(
-                            
+                            List(
+                                children=[
+                                    ListItem("Users"),
+                                    ListItem("Devices"),
+                                    ListItem("Tests"),
+                                    ListItem("Tasks"),
+                                ]
+                            )
                         ),
                     ]
                 ),
