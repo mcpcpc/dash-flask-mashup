@@ -95,14 +95,28 @@ navbar = Navbar(
                     value="getting-started",
                     children=[
                         AccordionControl("Getting Started"),
-                        AccordionPanel(),
+                        AccordionPanel(
+                            List(
+                                listStyleType="none",
+                                children=[
+                                    ListItem("Instructions"),
+                                ]
+                            )
+                        ),
                     ]
                 ),
                 AccordionItem(
                     value="evaluate",
                     children=[
                         AccordionControl("Evaluate"),
-                        AccordionPanel(),
+                        AccordionPanel(
+                            List(
+                                listStyleType="none",
+                                children=[
+                                    ListItem("Run"),
+                                ]
+                            )
+                        ),
                     ]
                 ),
                 AccordionItem(
