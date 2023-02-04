@@ -2,6 +2,7 @@ from dash import page_container
 from dash import clientside_callback
 from dash import dcc
 
+from dash_mantine_components import Avatar
 from dash_mantine_components import Navbar
 from dash_mantine_components import Header
 from dash_mantine_components import MantineProvider
@@ -59,6 +60,12 @@ navbar = Navbar(
     fixed=True,
     position={"top": 57},
     children=[
+        Group(
+            p="md",
+            children=[
+                Avatar(radius="xl"),
+            ]
+        )
     ]
 )
 
