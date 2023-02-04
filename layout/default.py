@@ -10,6 +10,7 @@ from dash_mantine_components import NotificationsProvider
 from dash_mantine_components import Button
 from dash_mantine_components import Container
 from dash_mantine_components import Group
+from dash_mantine_components import Stack
 
 header = Header(
     height=57,
@@ -65,6 +66,11 @@ navbar = Navbar(
             p="md",
             children=[
                 Avatar(radius="xl"),
+                Stack(
+                    children=[
+                        "John Smith"
+                    ]
+                ),
             ]
         )
     ]
