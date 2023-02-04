@@ -81,9 +81,9 @@ navbar = Navbar(
                     spacing="xs",
                     children=[
                         Text(
-                            style={"line-height": "1rem"},
+                            size="xs",
                             children=[
-                                "John Smith<br>",
+                                "John Smith",
                                 Anchor("Log Out", href=""),
                             ]
                         )
