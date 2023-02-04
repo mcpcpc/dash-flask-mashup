@@ -17,6 +17,7 @@ header = Header(
         Group(
             position="apart",
             align="flex-start",
+            spacing="sm",
             children=[
                 Group(
                     children=[
