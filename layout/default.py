@@ -88,6 +88,7 @@ navbar = Navbar(
             ]
         ),
         Accordion(
+            chevronPosition="right",
             children=[
                 AccordionItem(
                     value="getting-started",
@@ -107,7 +108,9 @@ navbar = Navbar(
                     value="manage",
                     children=[
                         AccordionControl("Manage"),
-                        AccordionPanel(),
+                        AccordionPanel(
+                            
+                        ),
                     ]
                 ),
             ]
