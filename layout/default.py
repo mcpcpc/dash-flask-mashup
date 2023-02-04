@@ -24,6 +24,7 @@ from dash_mantine_components import Menu
 from dash_mantine_components import MenuItem
 from dash_mantine_components import MenuDropdown
 from dash_mantine_components import MenuTarget
+from dash_mantine_components import ActionIcon
 
 
 header = Header(
@@ -68,7 +69,11 @@ header = Header(
                             children=[
                                 Menu(
                                     children=[
-                                        MenuTarget("..."),
+                                        MenuTarget(
+                                            ActionIcon(
+                                                DashIconify(icon="ri:arrow-drop-down-line")
+                                            )
+                                        ),
                                         MenuDropdown(
                                             children=[
                                                 MenuItem("Getting Started"),
