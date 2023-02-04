@@ -75,7 +75,7 @@ navbar = Navbar(
                 Stack(
                     spacing="xs",
                     children=[
-                        Text("John Smith", size="sm"),
+                        "John Smith",
                         Anchor("Log Out", href=""),
                     ] 
                 )
