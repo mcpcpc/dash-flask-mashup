@@ -72,6 +72,8 @@ navbar = Navbar(
             children=[
                 Avatar(radius="xl"),
                 Stack(
+                    spacing="xs",
+                    align="flex-start",
                     children=[
                         "John Smith",
                     ]
