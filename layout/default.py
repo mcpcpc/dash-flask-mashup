@@ -35,7 +35,7 @@ header = Header(
                 Group(
                     children=[
                         MediaQuery(
-                            largerThan=500,
+                            largerThan=900,
                             styles={},
                             children=[
                                 Button(
