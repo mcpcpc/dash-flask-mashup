@@ -12,6 +12,7 @@ from dash_mantine_components import Button
 from dash_mantine_components import Container
 from dash_mantine_components import Group
 from dash_mantine_components import Stack
+from dash_mantine_components import Text
 
 header = Header(
     height=57,
@@ -74,7 +75,7 @@ navbar = Navbar(
                 Stack(
                     spacing="xs",
                     children=[
-                        "John Smith",
+                        Text("John Smith", size="sm"),
                         Anchor("Log Out", href=""),
                     ] 
                 )

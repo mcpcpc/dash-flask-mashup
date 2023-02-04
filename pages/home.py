@@ -6,7 +6,9 @@ from dash import register_page
 from dash_mantine_components import Container
 
 layout = Container(
-	children=[]
+	children=[
+		
+	]
 )
 
 register_page(
