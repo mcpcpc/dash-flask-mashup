@@ -36,6 +36,7 @@ header = Header(
                     children=[
                         MediaQuery(
                             largerThan=500,
+                            styles={},
                             children=[
                                 Button(
                                     "Getting Started",
