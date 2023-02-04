@@ -19,6 +19,7 @@ from dash_mantine_components import AccordionControl
 from dash_mantine_components import AccordionPanel
 from dash_mantine_components import List
 from dash_mantine_components import ListItem
+from dash_mantine_components import MediaQuery
 
 
 header = Header(
@@ -33,23 +34,28 @@ header = Header(
             children=[
                 Group(
                     children=[
-                        Button(
-                            "Getting Started",
-                            id="getting-started",
-                            compact=True,
-                            variant="subtle",
-                        ),
-                        Button(
-                            "Evaluation",
-                            id="evaluation",
-                            compact=True,
-                            variant="subtle",
-                        ),
-                        Button(
-                            "Manage",
-                            id="manage",
-                            compact=True,
-                            variant="subtle",
+                        MediaQury(
+                            largerThan=500,
+                            children=[
+                                Button(
+                                    "Getting Started",
+                                    id="getting-started",
+                                    compact=True,
+                                    variant="subtle",
+                                ),
+                                Button(
+                                    "Evaluation",
+                                    id="evaluation",
+                                    compact=True,
+                                    variant="subtle",
+                                ),
+                                Button(
+                                    "Manage",
+                                    id="manage",
+                                    compact=True,
+                                    variant="subtle",
+                                ),
+                            ]
                         ),
                     ]
                 ),
