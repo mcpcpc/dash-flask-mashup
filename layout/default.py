@@ -51,7 +51,7 @@ wrapper = Container(children=page_container)
 
 navbar = Navbar(
     fixed=True,
-    top=57,
+    position={"top": 57},
     children=[
     ]
 )
