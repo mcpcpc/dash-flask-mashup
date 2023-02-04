@@ -20,6 +20,10 @@ from dash_mantine_components import AccordionPanel
 from dash_mantine_components import List
 from dash_mantine_components import ListItem
 from dash_mantine_components import MediaQuery
+from dash_mantine_components import Menu
+from dash_mantine_components import MenuItem
+from dash_mantine_components import MenuDropdown
+from dash_mantine_components import MenuTarget
 
 
 header = Header(
@@ -56,6 +60,24 @@ header = Header(
                                     compact=True,
                                     variant="subtle",
                                 ),
+                            ]
+                        ),
+                        MediaQuery(
+                            largerThan="xl",
+                            styles={"display": "none"},
+                            children=[
+                                Menu(
+                                    children=[
+                                        MenuTarget(Button("x")),
+                                        MenuDropdown(
+                                            children=[
+                                                MenuItem("Getting Started"),
+                                                MenuItem("Evaluate"),
+                                                MenuItem("Manage"),
+                                            ]
+                                        )
+                                    ]
+                                )
                             ]
                         ),
                     ]
