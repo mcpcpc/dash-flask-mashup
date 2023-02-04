@@ -1,7 +1,7 @@
 from dash import page_container
 from dash import clientside_callback
 from dash import dcc
-
+from dash_iconify import DashIconify
 from dash_mantine_components import Avatar
 from dash_mantine_components import Anchor
 from dash_mantine_components import Navbar
@@ -13,6 +13,7 @@ from dash_mantine_components import Container
 from dash_mantine_components import Group
 from dash_mantine_components import Stack
 from dash_mantine_components import Text
+
 
 header = Header(
     height=57,
@@ -53,6 +54,7 @@ header = Header(
                             id="login",
                             compact=True,
                             variant="light",
+                            leftIcon=DashIconify(icon="bx:log-in-circle"),
                         ),
                     ]
                 ),
