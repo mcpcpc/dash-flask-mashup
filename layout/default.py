@@ -13,6 +13,7 @@ from dash_mantine_components import Group
 header = Header(
     height=57,
     fixed=True,
+    p="md",
     children=[
         Group(
             position="apart",
