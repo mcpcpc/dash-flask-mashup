@@ -23,17 +23,14 @@ header = Header(
                         Button(
                             "Getting Started",
                             variant="subtle",
-                            href="/"
                         ),
                         Button(
                             "Evaluation",
                             variant="subtle",
-                            href="/evaluation"
                         ),
                         Button(
                             "Manage",
                             variant="subtle",
-                            href="/manage"
                         ),
                     ]
                 ),
@@ -42,7 +39,6 @@ header = Header(
                         Button(
                             "Log In",
                             variant="light",
-                            href="/login"
                         ),
                     ]
                 ),
