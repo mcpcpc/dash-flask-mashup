@@ -88,7 +88,6 @@ navbar = Navbar(
             ]
         ),
         Accordion(
-            chevronPosition="right",
             children=[
                 AccordionItem(
                     value="getting-started",
