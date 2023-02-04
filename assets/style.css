@@ -2,7 +2,7 @@
     margin-left: 200px;
 }
 
-@media only screen and (max-width: 1500px) {
+@media only screen and (max-width: 800px) {
     #navbar {
         display: none;
     }
