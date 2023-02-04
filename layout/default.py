@@ -56,9 +56,13 @@ header = Header(
     ]
 )
 
-wrapper = Container(children=page_container)
+wrapper = Container(
+    id="wrapper",
+    children=page_container
+)
 
 navbar = Navbar(
+    id="navbar",
     fixed=True,
     position={"top": 57},
     width={"base": 300},
