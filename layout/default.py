@@ -70,7 +70,6 @@ navbar = Navbar(
                 Stack(
                     children=[
                         "John Smith",
-                        Anchor("Log Out", href="/logout")
                     ]
                 ),
             ]
