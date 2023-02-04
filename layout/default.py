@@ -35,8 +35,8 @@ header = Header(
                 Group(
                     children=[
                         MediaQuery(
-                            largerThan=900,
-                            styles={},
+                            smallerThan="xl",
+                            styles={"display": "none"}
                             children=[
                                 Button(
                                     "Getting Started",
