@@ -71,7 +71,7 @@ navbar = Navbar(
         Group(
             p="xl",
             children=[
-                Avatar(radius="xl"),
+                Avatar(radius="xl", size="xl"),
                 Stack(
                     spacing="xs",
                     children=[
