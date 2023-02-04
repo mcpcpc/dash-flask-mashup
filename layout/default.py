@@ -68,7 +68,7 @@ header = Header(
                             children=[
                                 Menu(
                                     children=[
-                                        MenuTarget(Button("x")),
+                                        MenuTarget("..."),
                                         MenuDropdown(
                                             children=[
                                                 MenuItem("Getting Started"),
