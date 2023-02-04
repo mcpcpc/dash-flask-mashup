@@ -23,14 +23,17 @@ header = Header(
                     children=[
                         Button(
                             "Getting Started",
+                            compact=True,
                             variant="subtle",
                         ),
                         Button(
                             "Evaluation",
+                            compact=True,
                             variant="subtle",
                         ),
                         Button(
                             "Manage",
+                            compact=True,
                             variant="subtle",
                         ),
                     ]
@@ -39,6 +42,7 @@ header = Header(
                     children=[
                         Button(
                             "Log In",
+                            compact=True,
                             variant="light",
                         ),
                     ]
