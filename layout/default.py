@@ -80,8 +80,13 @@ navbar = Navbar(
                 Stack(
                     spacing="xs",
                     children=[
-                        "John Smith",
-                        Anchor("Log Out", href=""),
+                        Text(
+                            style={"line-height": "1rem"},
+                            children=[
+                                "John Smith",
+                                Anchor("Log Out", href=""),
+                            ]
+                        )
                     ] 
                 )
             ]
