@@ -111,6 +111,7 @@ navbar = Navbar(
                         AccordionControl("Manage"),
                         AccordionPanel(
                             List(
+                                listStyleType="none",
                                 children=[
                                     ListItem("Users"),
                                     ListItem("Devices"),
