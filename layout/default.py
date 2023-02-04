@@ -72,7 +72,7 @@ navbar = Navbar(
             p="xl",
             spacing="xl",
             children=[
-                Avatar(radius="xl", size="lg"),
+                Avatar(radius="lg", size="xl"),
                 Stack(
                     spacing="xs",
                     children=[
