@@ -27,19 +27,19 @@ header = Header(
                 Group(
                     children=[
                         Button(
-                            children="Getting Started",
+                            "Getting Started",
                             id="getting-started",
                             compact=True,
                             variant="subtle",
                         ),
                         Button(
-                            children="Evaluation",
-                            id="evaluation" 
+                            "Evaluation",
+                            id="evaluation",
                             compact=True,
                             variant="subtle",
                         ),
                         Button(
-                            children="Manage",
+                            "Manage",
                             id="manage",
                             compact=True,
                             variant="subtle",
@@ -49,7 +49,7 @@ header = Header(
                 Group(
                     children=[
                         Button(
-                            children="Log In",
+                            "Log In",
                             id="login",
                             compact=True,
                             variant="light",
