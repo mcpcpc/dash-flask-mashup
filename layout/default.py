@@ -34,7 +34,7 @@ header = Header(
             children=[
                 Group(
                     children=[
-                        MediaQury(
+                        MediaQuery(
                             largerThan=500,
                             children=[
                                 Button(
