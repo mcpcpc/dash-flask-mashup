@@ -76,6 +76,7 @@ navbar = Navbar(
                     align="flex-start",
                     children=[
                         "John Smith",
+                        Anchor("Log Out", href=""),
                     ]
                 ),
             ]
