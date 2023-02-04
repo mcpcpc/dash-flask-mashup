@@ -68,7 +68,7 @@ navbar = Navbar(
     width={"base": 300},
     children=[
         Group(
-            p="lg",
+            p="xl",
             children=[
                 Avatar(radius="xl"),
                 Stack(
