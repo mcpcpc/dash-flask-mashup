@@ -66,7 +66,7 @@ navbar = Navbar(
     id="navbar",
     fixed=True,
     position={"top": 57},
-    width={"base": 300},
+    width={"base": 200},
     children=[
         Group(
             p="xl",
