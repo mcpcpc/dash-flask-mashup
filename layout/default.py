@@ -83,7 +83,7 @@ navbar = Navbar(
             p="xl",
             spacing="xl",
             children=[
-                Avatar(radius="xl", size="lg"),
+                Avatar(radius="lg", size="lg"),
                 Text("John Smith")
             ]
         ),
