@@ -90,18 +90,21 @@ navbar = Navbar(
         Accordion(
             children=[
                 AccordionItem(
+                    value="getting-started",
                     children=[
                         AccordionControl("Getting Started"),
                         AccordionPanel(),
                     ]
                 ),
                 AccordionItem(
+                    value="evaluate",
                     children=[
                         AccordionControl("Evaluate"),
                         AccordionPanel(),
                     ]
                 ),
                 AccordionItem(
+                    value="manage",
                     children=[
                         AccordionControl("Manage"),
                         AccordionPanel(),
