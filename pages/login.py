@@ -22,22 +22,24 @@ layout = Container(
 				TextInput(
 					id="username",
 					placeholder="Username",
+					style={"max-width": 250},
 				),
 				PasswordInput(
 					id="password",
 					placeholder="Password",
+					style={"max-width": 250},
 				),
 				Group(
 					children=[
 						Button(
 							id="submit",
 							children="Log In",
-							variant="light"
+							variant="light",
 						),
 						Button(
 							id="cancel",
 							children="Cancel",
-							variant="subtle"
+							variant="subtle",
 						),
 					]	
 				)
