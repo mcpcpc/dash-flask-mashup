@@ -16,7 +16,7 @@ layout = Container(
 	children=[
 		Title("Log In", order=1, weight=400),
 		Stack(
-			spacing="lg",
+			spacing="md",
 			children=[
 				Text("Welcome back! Please provide valid credentials to access additional tools."),
 				TextInput(
