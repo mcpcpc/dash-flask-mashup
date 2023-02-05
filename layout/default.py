@@ -160,20 +160,36 @@ navbar = Navbar(
                         AccordionPanel(
                             children=[
                                 Anchor(
-                                    "Users",
                                     href="",
+                                    Group(
+                                        children=[
+                                            Text("Users")
+                                        ] 
+                                    )
                                 ),
                                 Anchor(
-                                    "Devices",
                                     href="",
+                                    Group(
+                                        children=[
+                                            Text("Devices")
+                                        ] 
+                                    )
                                 ),
                                 Anchor(
-                                    "Tests",
                                     href="",
+                                    Group(
+                                        children=[
+                                            Text("Tests")
+                                        ] 
+                                    )
                                 ),
                                 Anchor(
-                                    "Tasks",
                                     href="",
+                                    Group(
+                                        children=[
+                                            Text("Tasks")
+                                        ] 
+                                    )
                                 ),
                             ]
                         ),
