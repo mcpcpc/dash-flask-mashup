@@ -105,7 +105,6 @@ header = Header(
 
 wrapper = Container(
     id="wrapper",
-    my=57,
     children=page_container
 )
 
