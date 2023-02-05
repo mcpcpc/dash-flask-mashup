@@ -161,7 +161,7 @@ navbar = Navbar(
                             children=[
                                 Anchor(
                                     href="",
-                                    Group(
+                                    children=Group(
                                         children=[
                                             Text("Users")
                                         ] 
@@ -169,7 +169,7 @@ navbar = Navbar(
                                 ),
                                 Anchor(
                                     href="",
-                                    Group(
+                                    children=Group(
                                         children=[
                                             Text("Devices")
                                         ] 
@@ -177,7 +177,7 @@ navbar = Navbar(
                                 ),
                                 Anchor(
                                     href="",
-                                    Group(
+                                    children=Group(
                                         children=[
                                             Text("Tests")
                                         ] 
@@ -185,7 +185,7 @@ navbar = Navbar(
                                 ),
                                 Anchor(
                                     href="",
-                                    Group(
+                                    children=Group(
                                         children=[
                                             Text("Tasks")
                                         ] 
