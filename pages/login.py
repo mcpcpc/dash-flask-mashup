@@ -14,11 +14,16 @@ from dash_mantine_components import Group
 
 layout = Container(
 	children=[
-		Title("Log In", order=1, weight=400),
+		Container(
+			pt="lg",
+			children=[
+				Title("Log In", order=1, weight=400),
+				Text("Welcome back! Please provide valid credentials to access additional tools."),
+			]
+		),
 		Stack(
 			spacing="sm",
 			children=[
-				Text("Welcome back! Please provide valid credentials to access additional tools."),
 				Text("If you do not have credentials or have forgotten your username or password, please contact a system administrator.", size="xs"),
 				TextInput(
 					id="username",
