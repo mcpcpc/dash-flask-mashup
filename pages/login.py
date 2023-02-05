@@ -9,33 +9,38 @@ from dash_mantine_components import Title
 from dash_mantine_components import PasswordInput
 from dash_mantine_components import TextInput
 from dash_mantine_components import Button
-from dash_mantine_components import Group
+from dash_mantine_components import Stack
 
 layout = Container(
 	children=[
 		Title("Log In", order=1, weight=400),
 		Text("Welcome back! Please provide valid credentials to access additional tools."),
-		TextInput(
-			id="username",
-			placeholder="Username",
-		),
-		PasswordInput(
-			id="password",
-			placeholder="Password",
-		),
-		Group(
+		Stack(
+			spacing="lg",
 			children=[
-				Button(
-					id="submit",
-					children="Log In",
-					variant="light"
+				TextInput(
+					id="username",
+					placeholder="Username",
 				),
-				Button(
-					id="cancel",
-					children="Cancel",
-					variant="subtle"
+				PasswordInput(
+					id="password",
+					placeholder="Password",
 				),
-			]	
+				Group(
+					children=[
+						Button(
+							id="submit",
+							children="Log In",
+							variant="light"
+						),
+						Button(
+							id="cancel",
+							children="Cancel",
+							variant="subtle"
+						),
+					]	
+				)
+			]
 		)
 	]
 )
