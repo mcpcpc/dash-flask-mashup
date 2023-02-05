@@ -9,7 +9,7 @@ from dash_mantine_components import Title
 
 layout = Container(
 	children=[
-		Title("Getting Started", order=1),
+		Title("Getting Started", order=1, weight=400),
 		Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus euismod sem lorem, in fermentum magna auctor eget. Duis molestie dignissim ullamcorper. Aliquam cursus felis in lobortis auctor.", size="xl"),
 	]
 )
