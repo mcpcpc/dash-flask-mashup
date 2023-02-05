@@ -10,6 +10,7 @@ from dash_mantine_components import PasswordInput
 from dash_mantine_components import TextInput
 from dash_mantine_components import Button
 from dash_mantine_components import Stack
+from dash_mantine_components import Group
 
 layout = Container(
 	children=[
