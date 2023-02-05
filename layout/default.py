@@ -130,12 +130,16 @@ navbar = Navbar(
                     children=[
                         AccordionControl("Getting Started"),
                         AccordionPanel(
-                            List(
-                                listStyleType="none",
-                                children=[
-                                    ListItem("Instructions"),
-                                ]
-                            )
+                            children=[
+                                Anchor(
+                                    href="",
+                                    children=Group(
+                                        children=[
+                                            Text("Instructions")
+                                        ] 
+                                    )
+                                ),
+                            ]
                         ),
                     ]
                 ),
@@ -144,12 +148,16 @@ navbar = Navbar(
                     children=[
                         AccordionControl("Evaluate"),
                         AccordionPanel(
-                            List(
-                                listStyleType="none",
-                                children=[
-                                    ListItem("Run"),
-                                ]
-                            )
+                            children=[
+                                Anchor(
+                                    href="",
+                                    children=Group(
+                                        children=[
+                                            Text("Run")
+                                        ] 
+                                    )
+                                ),
+                            ]
                         ),
                     ]
                 ),
