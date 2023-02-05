@@ -40,7 +40,7 @@ header = Header(
                 Group(
                     children=[
                         MediaQuery(
-                            smallerThan="xl",
+                            smallerThan="lg",
                             styles={"display": "none"},
                             children=[
                                 Button(
@@ -64,7 +64,7 @@ header = Header(
                             ]
                         ),
                         MediaQuery(
-                            largerThan="xl",
+                            largerThan="lg",
                             styles={"display": "none"},
                             children=[
                                 Menu(
