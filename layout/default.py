@@ -158,15 +158,24 @@ navbar = Navbar(
                     children=[
                         AccordionControl("Manage"),
                         AccordionPanel(
-                            List(
-                                listStyleType="none",
-                                children=[
-                                    ListItem("Users"),
-                                    ListItem("Devices"),
-                                    ListItem("Tests"),
-                                    ListItem("Tasks"),
-                                ]
-                            )
+                            children=[
+                                Anchor(
+                                    "Users",
+                                    href="",
+                                ),
+                                Anchor(
+                                    "Devices",
+                                    href="",
+                                ),
+                                Anchor(
+                                    "Tests",
+                                    href="",
+                                ),
+                                Anchor(
+                                    "Tasks",
+                                    href="",
+                                ),
+                            ]
                         ),
                     ]
                 ),
